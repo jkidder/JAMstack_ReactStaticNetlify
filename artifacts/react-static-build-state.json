@@ -1,0 +1,61 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "entry": "index.js",
+  "plugins": [
+    [
+      "/home/pi/Documents/reactstatic/JAMstack_ReactStaticNetlify/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/home/pi/Documents/reactstatic/JAMstack_ReactStaticNetlify/src/pages"
+      }
+    ],
+    "/home/pi/Documents/reactstatic/JAMstack_ReactStaticNetlify/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/home/pi/Documents/reactstatic/JAMstack_ReactStaticNetlify/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/home/pi/Documents/reactstatic/JAMstack_ReactStaticNetlify"
+  ],
+  "paths": {
+    "ROOT": "/home/pi/Documents/reactstatic/JAMstack_ReactStaticNetlify",
+    "SRC": "/home/pi/Documents/reactstatic/JAMstack_ReactStaticNetlify/src",
+    "DIST": "/home/pi/Documents/reactstatic/JAMstack_ReactStaticNetlify/dist",
+    "ASSETS": "/home/pi/Documents/reactstatic/JAMstack_ReactStaticNetlify/dist",
+    "PLUGINS": "/home/pi/Documents/reactstatic/JAMstack_ReactStaticNetlify/plugins",
+    "TEMP": "/home/pi/Documents/reactstatic/JAMstack_ReactStaticNetlify/tmp",
+    "ARTIFACTS": "/home/pi/Documents/reactstatic/JAMstack_ReactStaticNetlify/artifacts",
+    "PUBLIC": "/home/pi/Documents/reactstatic/JAMstack_ReactStaticNetlify/public",
+    "NODE_MODULES": "/home/pi/Documents/reactstatic/JAMstack_ReactStaticNetlify/node_modules",
+    "EXCLUDE_MODULES": "/home/pi/Documents/reactstatic/JAMstack_ReactStaticNetlify/node_modules",
+    "PACKAGE": "/home/pi/Documents/reactstatic/JAMstack_ReactStaticNetlify/package.json",
+    "HTML_TEMPLATE": "/home/pi/Documents/reactstatic/JAMstack_ReactStaticNetlify/dist/index.html",
+    "STATIC_DATA": "/home/pi/Documents/reactstatic/JAMstack_ReactStaticNetlify/dist/staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
